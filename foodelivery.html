@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<!-- saved from url=(0092)file:///C:/Users/hp/OneDrive/Pictures/Desktop/practice%20section/nowkari%20frame.html#nonveg -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Bootstrap Example</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./foodelivery_files/bootstrap.min.css">
+  <script src="./foodelivery_files/jquery.min.js.download"></script>
+  <script src="./foodelivery_files/bootstrap.min.js.download"></script>
+  <script src="./foodelivery_files/jquery.min.js.download"></script>
+  
+  
+  <style>    
+    /* Set black background color, white text and some padding */
+    footer {
+      
+      color: black;
+      padding: 3px;
+      
+    }
+    .del{
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: 600px;
+      font-size: 30px;
+    }
+    .foot{
+      padding: 5px;
+    }
+    .email{
+      width: 300px;
+      height: 34px;
+      text-align: center;
+      margin-bottom: 3px;
+      border-bottom-left-radius: 5px;
+      border-top-left-radius: 5px;
+
+    }
+    .menu{
+      border: 2px black solid;
+      border-radius: 5px;
+      padding: 5px;
+      width: 150px;
+      
+      
+    }
+    .mn{
+      align-items: center;
+    }
+    .shadow{
+      border: 2px rgb(238, 216, 156) solid;
+    }
+    .servi{
+      margin-top: 18px;
+      padding-top: 16px;
+    }
+    .hile{
+      font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-weight: 400px;
+      background: url(https://thumbs.dreamstime.com/b/row-ice-cream-scoops-colorful-decorations-shot-above-white-background-89050361.jpg);
+      display: block;
+      border-radius: 8px;
+    }
+    .h23{
+      padding: 10px;
+      color: rgba(3, 28, 3, 0.911);
+      font-weight: 600px;
+      font-size: 40px;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    body{
+      background-color: rgb(238, 245, 237);
+    }
+    .h13{
+      padding: 15px;
+      
+      color: rgb(18, 2, 2);
+      font-weight: 500px;
+      
+    }
+    .input-group{
+      width: 300px;
+      
+    }
+    .ico{
+      color: brown;
+    }
+    .img{
+      border-radius: 11px;
+      padding-top: 8px;
+      padding-right: 18px;
+     
+      
+
+    } 
+    .chken{
+      border-radius: 15px;
+    } 
+    .tittle{
+      color: goldenrod;
+      padding: 3px;
+    } 
+    #ourmenu a{
+      color: aliceblue;
+    } 
+    
+    
+  </style>
+  <script>
+          $(document).ready(function(){
+            $("#non").click(function(){
+              $(".img1").hide(2000, function(){
+                $(".img1").show(3000);
+              })});
+
+              $("#ourmenu").click(function(){
+              $(".img").hide(2000, function(){
+                $(".img").show(3000);
+              })});
+              $("#name").click(function(){
+              $("#name").slideUp(function(){
+                $("#name").slideDown(3000);
+              })});
+
+              $("#para").mouseenter(function(){
+              $("#para").slideUp(function(){
+                $("#para").slideDown(1000);
+              })});
+
+              $("#vegi").mouseenter(function(){
+              $("#vegi").slideUp(function(){
+                $("#vegi").slideDown(1000);
+              })});
+
+              $("#sweet").mouseenter(function(){
+              $("#sweet").slideUp(function(){
+                $("#sweet").slideDown(1000);
+              })});
+          });
+  </script>
+   
+</head>
+<body>
+
+<nav class="navbar bg-info">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="file:///C:/Users/hp/OneDrive/Pictures/Desktop/practice%20section/nowkari%20frame.html#"><span class="del">F</span>ood<span class="del">D</span>elivery</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group input-group">
+          <input type="text" class="form-control" placeholder="Search..">
+          <span class="input-group-btn">
+            <button class="btn btn-danger" type="button">
+              <span class="glyphicon glyphicon-search "></span>
+            </button>
+          </span>        
+        </div>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+
+        <li class="active" id="non"><a href="file:///C:/Users/hp/OneDrive/Pictures/Desktop/practice%20section/nowkari%20frame.html#nonveg">Non-Veg</a></li>
+        <li class="active"><a href="file:///C:/Users/hp/OneDrive/Pictures/Desktop/practice%20section/nowkari%20frame.html#veg">Veg</a></li>
+        <li class="active"><a href="file:///C:/Users/hp/OneDrive/Pictures/Desktop/practice%20section/nowkari%20frame.html#creams">Desserts</a></li>
+        <li><a href="file:///C:/Users/hp/OneDrive/Pictures/Desktop/practice%20section/nowkari%20frame.html#desserts">Pizzas</a></li>
+        <li><a href="file:///C:/Users/hp/OneDrive/Pictures/Desktop/practice%20section/nowkari%20frame.html#chefs">Chefs</a></li>
+        <li><a href="file:///C:/Users/hp/OneDrive/Pictures/Desktop/practice%20section/nowkari%20frame.html#myaccounts"> My Account</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br>
+
+<div class="hile container text-right">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h2 class="h23" id="name">Telangana Inspired kitchen <br> in the <br>Heart of Hyderabad</h2>
+  <br><br>
+  <br>
+  <br>
+  
+  <div>
+  <button class="btn btn-danger" id="ourmenu"><a href="file:///C:/Users/hp/OneDrive/Pictures/Desktop/practice%20section/nowkari%20frame.html#nonveg">Our Menu</a></button>
+  <button class="btn btn-danger">Delivery &amp; Pick Up</button> 
+  <button class="btn btn-danger">Book a Table</button>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <br>
+</div>
+<br>
+<br>
+<br>
+<div class="h13">
+  <h1 class="text-center" id="para">
+    We believe in the simple pleasures of life.<br>
+    Good food, fresh ingredients, and awesome vibes.<br>Welcome to <span class="ico">Food Delivery</span>, make yourself at home.</h1>
+</div>
+<br><br><br>
+
+
+      <div class=" container-fluid input-group">
+        
+        <input type="text" class="form-control" placeholder="Type Your Recipe..">
+        <span class="input-group-btn">
+          <button class="btn btn-danger" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+          </span>
+          </div>
+      <p class="text-center"><b>Recipe Types:</b>Chicken, Fish, Cheese, Chocolate, Pizzas, Burgers</p>
+      
+    
+    <br>
+  <div class="container bg-info chken">
+    <div class="container bg-3 text-center">
+      
+        <h3 class="text-left" id="nonveg">Non-Veg_Items</h3><br>
+      <div class="row img1">
+        <div class=" col-sm-3">
+          <img src="./foodelivery_files/non-veg-restaurant.jpg" class="img" style="width:100%" alt="Image">
+          <h4 class="tittle">Chicken</h4>
+        </div>
+        <div class="col-sm-3">
+          <img src="./foodelivery_files/non-veg-restaurant.jpg" class="img" style="width:100%" alt="Image">
+          <h4 class="tittle">Chicken</h4>
+        </div>
+        <div class=" col-sm-3">
+          <img src="./foodelivery_files/non-veg-restaurant.jpg" class="img" style="width:100%" alt="Image">
+          <h4 class="tittle">Chicken</h4>
+        </div>
+        <div class="col-sm-3">
+          <img src="./foodelivery_files/non-veg-restaurant.jpg" class="img" style="width:100%" alt="Image">
+          <h4 class="tittle">Chicken</h4>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="container bg-3 text-center">    
+      <div class="row img1">
+        <div class=" col-sm-3">
+          <img src="./foodelivery_files/non-veg-restaurant.jpg" class="img" style="width:100%" alt="Image">
+          <h4 class="tittle">Chicken</h4>
+        </div>
+        <div class="col-sm-3">
+          <img src="./foodelivery_files/non-veg-restaurant.jpg" class="img" style="width:100%" alt="Image">
+          <h4 class="tittle">Chicken</h4>
+        </div>
+        <div class=" col-sm-3">
+          <img src="./foodelivery_files/non-veg-restaurant.jpg" class="img" style="width:100%" alt="Image">
+          <h4 class="tittle">Chicken</h4>
+        </div>
+        <div class="col-sm-3">
+          <img src="./foodelivery_files/non-veg-restaurant.jpg" class="img" style="width:100%" alt="Image">
+          <h4 class="tittle">Chicken</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+
+    <br>
+    <div class="container bg-info chken">
+      <div class="container bg-3 text-center">
+        
+          <h3 class="text-left" id="veg">Veg-Items</h3><br>
+        <div class="row" id="vegi">
+          <div class=" col-sm-3">
+            <img src="./foodelivery_files/0f137d2a243f7b63e5716ab4c10c3ee3.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">17 Vegetarin Item</h4>
+          </div>
+          <div class="col-sm-3">
+            <img src="./foodelivery_files/0f137d2a243f7b63e5716ab4c10c3ee3.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">17 Vegetarin Item</h4>
+          </div>
+          <div class=" col-sm-3">
+            <img src="./foodelivery_files/0f137d2a243f7b63e5716ab4c10c3ee3.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">17 Vegetarin Item</h4>
+          </div>
+          <div class="col-sm-3">
+            <img src="./foodelivery_files/0f137d2a243f7b63e5716ab4c10c3ee3.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">17 Vegetarin Item</h4>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="container bg-3 text-center">    
+        <div class="row">
+          <div class=" col-sm-3">
+            <img src="./foodelivery_files/0f137d2a243f7b63e5716ab4c10c3ee3.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">17 Vegetarin Item</h4>
+          </div>
+          <div class="col-sm-3">
+            <img src="./foodelivery_files/0f137d2a243f7b63e5716ab4c10c3ee3.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">17 Vegetarin Item</h4>
+          </div>
+          <div class=" col-sm-3">
+            <img src="./foodelivery_files/0f137d2a243f7b63e5716ab4c10c3ee3.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">17 Vegetarin Item</h4>
+          </div>
+          <div class="col-sm-3">
+            <img src="./foodelivery_files/0f137d2a243f7b63e5716ab4c10c3ee3.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">17 Vegetarin Item</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="container bg-info chken">
+      <div class="container bg-3 text-center">
+        
+          <h3 class="text-left" id="creams">Desserts-Items</h3><br>
+        <div class="row">
+          <div class=" col-sm-3">
+            <img src="./foodelivery_files/ice-cream-500x500.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">Sweet Ice Cream</h4>
+          </div>
+          <div class="col-sm-3">
+            <img src="./foodelivery_files/ice-cream-500x500.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">Sweet Ice Cream</h4>
+          </div>
+          <div class=" col-sm-3">
+            <img src="./foodelivery_files/ice-cream-500x500.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">Sweet Ice Cream</h4>
+          </div>
+          <div class="col-sm-3">
+            <img src="./foodelivery_files/ice-cream-500x500.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">Sweet Ice Cream</h4>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="container bg-3 text-center">    
+        <div class="row" id="sweet">
+          <div class=" col-sm-3">
+            <img src="./foodelivery_files/ice-cream-500x500.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">Sweet Ice Cream</h4>
+          </div>
+          <div class="col-sm-3">
+            <img src="./foodelivery_files/ice-cream-500x500.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">Sweet Ice Cream</h4>
+          </div>
+          <div class=" col-sm-3">
+            <img src="./foodelivery_files/ice-cream-500x500.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">Sweet Ice Cream</h4>
+          </div>
+          <div class="col-sm-3">
+            <img src="./foodelivery_files/ice-cream-500x500.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">Sweet Ice Cream</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="container bg-info chken">
+      <div class="container bg-3 text-center">
+        
+          <h3 class="text-left" id="desserts">Pizza-Items</h3><br>
+        <div class="row">
+          <div class=" col-sm-3">
+            <img src="./foodelivery_files/pizza_650x400_41514459044.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">Whole Weat Pizza</h4>
+          </div>
+          <div class="col-sm-3">
+            <img src="./foodelivery_files/pizza_650x400_41514459044.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">Whole Weat Pizza</h4>
+          </div>
+          <div class=" col-sm-3">
+            <img src="./foodelivery_files/pizza_650x400_41514459044.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">Whole Weat Pizza</h4>
+          </div>
+          <div class="col-sm-3">
+            <img src="./foodelivery_files/pizza_650x400_41514459044.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">Whole Weat Pizza</h4>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="container bg-3 text-center">    
+        <div class="row">
+          <div class=" col-sm-3">
+            <img src="./foodelivery_files/pizza_650x400_41514459044.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">Whole Weat Pizza</h4>
+          </div>
+          <div class="col-sm-3">
+            <img src="./foodelivery_files/pizza_650x400_41514459044.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">Whole Weat Pizza</h4>
+          </div>
+          <div class=" col-sm-3">
+            <img src="./foodelivery_files/pizza_650x400_41514459044.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">Whole Weat Pizza</h4>
+          </div>
+          <div class="col-sm-3">
+            <img src="./foodelivery_files/pizza_650x400_41514459044.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">Whole Weat Pizza</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="container bg-info chken">
+      <div class="container bg-3 text-center">
+        
+          <h3 class="text-left" id="chefs">Chefs</h3><br>
+        <div class="row">
+          <div class=" col-sm-3">
+            <img src="./foodelivery_files/file76xz1iyv8pgqtohi7z7-1568057401.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">Sanjeev Kapoor</h4>
+          </div>
+          <div class="col-sm-3">
+            <img src="./foodelivery_files/file76xz1iyv8pgqtohi7z7-1568057401.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">Sanjeev Kapoo</h4>
+          </div>
+          <div class=" col-sm-3">
+            <img src="./foodelivery_files/file76xz1iyv8pgqtohi7z7-1568057401.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">Sanjeev Kapoo</h4>
+          </div>
+          <div class="col-sm-3">
+            <img src="./foodelivery_files/file76xz1iyv8pgqtohi7z7-1568057401.jpg" class="img" style="width:100%" alt="Image">
+            <h4 class="tittle">Sanjeev Kapoo</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+  
+
+
+
+<footer class="container-fluid bg-info col-sm-12 m-4" id="myaccounts">
+  <div class="col-sm-6 row">
+  <h2 class="foot">Join Our <b>Food Delivery</b>, Be Well <br>Culture.</h2>
+  <p class="foot">stay up-to date with our new openings, up-coming events, seasonal specials and promotions. </p>
+     
+    
+      <input type="email" class="email" placeholder="Enter Your Mail">
+      <span><input type="button" class="btn btn-danger mb-3" value="Sign In"></span>
+    </div>
+      <div class="col-sm-6">
+        <div class="container-fluid">
+      <ul class="nav nav-pills row">
+        <li><a class="bg-info col-md-2" href="file:///C:/Users/hp/OneDrive/Pictures/Desktop/practice%20section/nowkari%20frame.html#">Services</a>
+        <ul class="servi">
+          <li>Support</li>
+          <li>About</li>
+          <li>Chefs</li>
+          <li>Blogs</li>
+          <li>Privacy-policy</li>
+          
+        </ul>
+        </li>
+        <li><a class="bg-info col-md-2" href="file:///C:/Users/hp/OneDrive/Pictures/Desktop/practice%20section/nowkari%20frame.html#section2">QuickLinks</a>
+        <ul class="servi">
+           <li>Services</li>
+           <li>Food Collection</li>
+           <li>Online Order</li>
+           <li>Blog</li>
+           <li>Contact</li>
+        </ul>
+      </li>
+        <li><a class="bg-info col-md-2" href="file:///C:/Users/hp/OneDrive/Pictures/Desktop/practice%20section/nowkari%20frame.html#section3">Contactus</a>
+        <ul class="servi">
+          <li>+11254876</li>
+          <li>+12254834</li>
+          <li>info@fooddelivery.com</li>
+          <li>hello@fooddelivery.com</li>
+          <li>Huda.28/3.vanastalipuram.hyd.india</li>
+        </ul>
+      </li>
+        
+      </ul>
+    </div>
+  </div>
+    
+      <br>
+    <marquee behavior="" direction="right">Copyright@www.fooddelivery.com</marquee>
+
+ 
+  
+</footer>
+
+
+</body></html>
